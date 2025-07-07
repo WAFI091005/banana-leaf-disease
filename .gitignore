@@ -1,0 +1,29 @@
+# === Python cache & env ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+*.log
+venv*/
+.env*
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Dataset & model berat ===
+dataset_daun_pisang/
+dataset_raw/
+*.zip
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# === Secrets / API ===
+.kaggle/
+kaggle.json
+
+# === IDE ===
+.vscode/
+.idea/
